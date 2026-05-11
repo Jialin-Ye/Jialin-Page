@@ -1,0 +1,26 @@
+cv:
+  name: Jialin Ye
+  label: Academic / Researcher
+  email: thisisyejialin@outlook.com
+  location:
+  website: https://jialin-ye.github.io/Jialin-Page/
+  image:
+  summary: >
+    This CV is intentionally kept as structured YAML so it can be edited in one
+    place and rendered automatically by the site.
+
+  social_networks:
+    - network: GitHub
+      username: Jialin-Ye
+
+  sections:
+    Education: []
+    Experience: []
+    Awards: []
+    Publications: []
+    Skills: []
+    Languages: []
+    Interests: []
+    Certificates: []
+    Projects: []
+    References: []

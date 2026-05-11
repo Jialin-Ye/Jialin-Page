@@ -1,0 +1,9 @@
+{
+  "editor.wordWrap": "on",
+  "files.associations": {
+    "*.liquid": "liquid",
+    "*.bib": "bibtex"
+  },
+  "markdown.preview.breaks": true,
+  "yaml.validate": true
+}
