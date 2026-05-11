@@ -13,3 +13,18 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+
+# Generated static output belongs on gh-pages, not in the source branch.
+/index.html
+/feed.xml
+/sitemap.xml
+/blog/
+/books/
+/cv/
+/news/
+/people/
+/projects/
+/publications/
+/repositories/
+/teaching/
+/teachings/
