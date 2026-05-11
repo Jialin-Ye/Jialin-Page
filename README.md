@@ -48,7 +48,13 @@ git push -u origin main
 
 After the first push, plain `git push` is enough.
 
-The deployment workflow is `.github/workflows/pages.yml`.
+The deployment workflow is `.github/workflows/pages.yml`. It builds the site from `main` and publishes the generated `_site` folder to the `gh-pages` branch.
+
+In GitHub repository settings, Pages should use:
+
+- Source: `Deploy from a branch`
+- Branch: `gh-pages`
+- Folder: `/ (root)`
 
 ## Local Preview
 
