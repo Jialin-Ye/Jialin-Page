@@ -2,6 +2,9 @@
 
 This site is organized so most updates happen in plain text files.
 
+Edit the `main` branch only. GitHub Actions builds the site and deploys it from
+the generated `_site` artifact. The `gh-pages` branch is not the source of truth.
+
 ## Profile
 
 Edit `_pages/about.md`.
@@ -66,3 +69,10 @@ For this repository, keep:
 url: https://jialin-ye.github.io
 baseurl: /Jialin-Page
 ```
+
+## Files to Ignore
+
+Do not edit generated HTML folders such as `blog/`, `cv/`, `news/`,
+`publications/`, or root files such as `index.html`, `feed.xml`, and
+`sitemap.xml` on `main`. Those are build output and should only appear inside
+the temporary `_site` folder or in a deployment artifact.

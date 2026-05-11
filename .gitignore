@@ -14,7 +14,7 @@ Gemfile.lock
 node_modules/
 vendor
 
-# Generated static output belongs on gh-pages, not in the source branch.
+# Generated static output and local reports do not belong in the source branch.
 /index.html
 /feed.xml
 /sitemap.xml
@@ -28,3 +28,8 @@ vendor
 /repositories/
 /teaching/
 /teachings/
+/lighthouse_results/
+/readme_preview/
+
+# Finder/copy conflict folders such as "assets/js 2/" are accidental duplicates.
+/assets/* 2/
