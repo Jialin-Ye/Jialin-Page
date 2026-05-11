@@ -12,6 +12,10 @@ Use the `profile.more_info` block for short contact/location details. Put longer
 
 Edit `_bibliography/papers.bib`.
 
+Keep only real BibTeX entries in this file. Do not leave commented-out `@article`
+examples inside `papers.bib`, because `jekyll-scholar` may still try to parse
+them during the GitHub Actions build.
+
 Useful fields:
 
 ```bibtex
